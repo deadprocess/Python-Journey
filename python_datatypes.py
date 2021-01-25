@@ -55,4 +55,3 @@ print(5)
 # That's a memory-view
 n = memoryview(bytes(5))
 print(n)
-
