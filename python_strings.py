@@ -57,5 +57,16 @@ phrase8 = "I hate anime"
 print(phrase8.replace("hate", "love"))
 
 # split string
-phrase9 = "I am 20 years old."
-print(phrase9.split())
+phrase9 = "I am 20 ,years old."
+print(phrase9.split(","))
+
+# concat strings
+A = "Python"
+B = " isn't just a snake..."
+C = A + B
+print(C)
+
+# formatting strings
+age = 20
+txt = "My name is YourAverageProgrammer924, I am {}"
+print(txt.format(age))
